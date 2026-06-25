@@ -129,7 +129,7 @@ serverless function is broken or you're working offline.
 
 ---
 
-## What interviewers ask about this project
+## FAQ
 
 | Question | Good answer |
 |---|---|
@@ -138,3 +138,6 @@ serverless function is broken or you're working offline.
 | How are credentials protected? | HTTPS in transit, never written to any storage, Vercel functions have no persistent disk, function exits after the single request |
 | What would you add in v2? | Multi-region scan, CSV export, real AWS Price List API for accurate costs, scheduled scans with email digest |
 | Why both mock and real mode? | Mock lets anyone demo the tool immediately without an AWS account — important for a portfolio project. Also useful for local dev without burning AWS API calls |
+
+
+Try Now : https://cloud-cost-auditor-web.vercel.app/
